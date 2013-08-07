@@ -1,0 +1,21 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main ()
+{
+    int harga;
+
+    cout << "Program Aplikasi Diskon Belanja" << endl;
+
+    cout << "Masukkan total jumlah belanjaan anda, dan apakah anda berhak mendapat diskon =  " << endl;
+    cin >> harga;
+
+    if (harga >= 100000)
+        cout << "Anda berhak mendapat diskon 10%" << endl;
+
+    else
+        cout << "Anda belum berhak mendapat diskon" << endl;
+
+    return 0;
+}
